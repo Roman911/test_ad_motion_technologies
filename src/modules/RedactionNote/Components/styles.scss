@@ -1,5 +1,11 @@
+@import "../../../variabels/colors";
+
 .note-input {
   width: 100%;
+  &__input {
+    border-bottom: 1px solid $borderInput;
+    margin-bottom: 15px;
+  }
   &__btn {
     text-align: end;
   }

@@ -3,7 +3,7 @@ import { NoteForms, Notes } from './modules'
 
 function App() {
   return <div className="App">
-    <h1>Hello</h1>
+    <h1>Test Task for Front-end Dev</h1>
     <NoteForms />
     <Notes />
   </div>
