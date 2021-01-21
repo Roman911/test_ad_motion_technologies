@@ -1,0 +1,27 @@
+@import "../../../variabels/colors";
+
+.form {
+  position: relative;
+  margin: 20px 10px;
+  &__input {
+    padding: 7px 10px;
+    border-bottom: 1px solid $borderInput;
+  }
+  &__label {
+    position: absolute;
+    padding: 7px 10px;
+    transition: transform .4s cubic-bezier(.25,.8,.25,1);
+    cursor: text;
+    &.active {
+      transform: translate3d(-23px,-23px,0) scale(.67);
+    }
+  }
+  &__button {
+    padding: 15px 0;
+    text-align: end;
+  }
+  &__error {
+    margin-left: 10px;
+    color: red;
+  }
+}

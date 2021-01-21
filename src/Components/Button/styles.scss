@@ -1,0 +1,11 @@
+@import "src/variabels/colors";
+
+.btn {
+  margin-left: 20px;
+  box-shadow: 0 5px 12px rgba(0,0,0,.1);
+  padding: 8px 16px;
+  background: $btn;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 200ms;
+}

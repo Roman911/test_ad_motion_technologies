@@ -1,0 +1,46 @@
+@import "../../../variabels/colors";
+
+.note {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid $borderInput;
+  border-radius: 8px;
+  &__right {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 100px);
+  }
+  &__left {
+    width: 70px;
+  }
+  .checkbox {
+    margin-right: 5px;
+    border: 1px solid $borderInput;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    padding-left: 1px;
+    justify-content: center;
+    cursor: pointer;
+    &__icon {
+      font-size: 10px;
+    }
+    &.active {
+      background-color: $bgCheckbox;
+      color: #ffffff;
+    }
+  }
+  &__title {
+    margin-left: 10px;
+    font-size: 1.1rem;
+  }
+  &__icon {
+    color: $icons;
+    font-size: 1rem;
+    margin: 0 8px;
+    cursor: pointer;
+    &:hover {
+      color: $bgCheckbox;
+    }
+  }
+}
